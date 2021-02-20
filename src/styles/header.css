@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: rgba(26, 25, 25, 0.9);
+  height: 60px;
+  caret-color: transparent;
+  color: white;
+}
+.logo {
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu:hover {
+  opacity: 0.7;
+}
+.menu-line {
+  height: 2px;
+  background-color: white;
+}
+.menu-medium-line {
+  background-color: white;
+  height: 3px;
+}
+@media (max-width: 768px) {
+  .logo {
+    font-size: 12px;
+  }
+}
