@@ -1,37 +1,50 @@
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 30px;
-  background-color: rgba(26, 25, 25, 0.9);
-  height: 60px;
-  caret-color: transparent;
+header {
+  background-color: black;
   color: white;
+  height: 100px;
+}
+.header {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  margin: auto;
+  max-width: 1140px;
+}
+.logo-img {
+  background-color: #b28756;
+  height: 80px;
+  width: 80px;
 }
 .logo {
-  text-transform: uppercase;
+  width: 100px;
 }
 .menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
+  flex: 1;
+  justify-content: flex-end;
 }
-.menu:hover {
+.menu ul,
+.menu li {
+  list-style: none;
+}
+.menu ul {
+  display: flex;
+}
+.menu li a {
+  align-items: center;
+  border-bottom: 3px solid black;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  margin: 0 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu li a:hover,
+.menu .active a {
+  border-bottom: 3px solid #b28756;
   opacity: 0.7;
-}
-.menu-line {
-  height: 2px;
-  background-color: white;
-}
-.menu-medium-line {
-  background-color: white;
-  height: 3px;
-}
-@media (max-width: 768px) {
-  .logo {
-    font-size: 12px;
-  }
+  padding-bottom: 10px;
 }
