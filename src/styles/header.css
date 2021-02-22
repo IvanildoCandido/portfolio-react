@@ -10,10 +10,8 @@ header {
   margin: auto;
   max-width: 1140px;
 }
-.logo-img {
-  background-color: #b28756;
+.logo img {
   height: 50px;
-  width: 50px;
 }
 .logo {
   width: 100px;

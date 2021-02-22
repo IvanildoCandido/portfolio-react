@@ -1,19 +1,40 @@
 .banner {
-  background-color: #333;
-  background-image: url('../assets/images/bg.jpg');
-  background-position: center;
-  background-size: cover;
-  caret-color: transparent;
-  height: calc(100vh - 80px);
-  overflow: hidden;
+	background-color: #333;
+	background-image: url('../assets/images/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	caret-color: transparent;
+	height: calc(100vh - 80px);
+	overflow: hidden;
 }
 .banner .sliders {
-  height: 100%;
-  width: 3000vw;
+	height: 100%;
+	width: 3000vw;
 }
 .banner .slide {
-  background-color: rgba(0, 0, 0, 0.8);
-  display: inline-block;
-  height: 100%;
-  width: 100vw;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: inline-block;
+	height: 100%;
+	width: 100vw;
+}
+.banner .sliders-pointers {
+	align-items: center;
+	display: flex;
+	height: 20px;
+	justify-content: center;
+	margin-top: -50px;
+	position: absolute;
+	width: 100vw;
+}
+.banner .pointer {
+	border: 2px solid #b28756;
+	border-radius: 8px;
+	cursor: pointer;
+	height: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 15px;
+}
+.banner .pointer.active {
+	background-color: #b28756;
 }

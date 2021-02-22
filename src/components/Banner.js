@@ -8,8 +8,17 @@ class Banner extends Component {
       <section className="banner">
         <div className="sliders">
           <div className="slide">
-            <SlidePrimary title="Titulo" subtitle="subtitle" description="description" />
+            <SlidePrimary
+              title="Titulo"
+              subtitle="subtitle"
+              description="description"
+            />
           </div>
+        </div>
+        <div className="sliders-pointers">
+          <div className="pointer active"></div>
+          <div className="pointer"></div>
+          <div className="pointer"></div>
         </div>
       </section>
     );

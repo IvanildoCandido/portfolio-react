@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/header.css';
+import logo from '../assets/images/logo.svg'
 
 class Header extends Component {
   render() {
@@ -7,7 +8,7 @@ class Header extends Component {
       <header>
         <div className="header">
           <div className="logo">
-            <div className="logo-img"></div>
+            <img src={logo} alt="Logo Ivanildo"/>
           </div>
           <div className="menu">
             <nav>
