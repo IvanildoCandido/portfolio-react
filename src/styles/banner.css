@@ -1,0 +1,19 @@
+.banner {
+  background-color: #333;
+  background-image: url('../assets/images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  caret-color: transparent;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+.banner .sliders {
+  height: 100%;
+  width: 3000vw;
+}
+.banner .slide {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+}

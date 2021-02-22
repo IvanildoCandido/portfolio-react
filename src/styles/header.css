@@ -1,19 +1,19 @@
 header {
   background-color: black;
   color: white;
-  height: 100px;
+  height: 80px;
 }
 .header {
   align-items: center;
   display: flex;
-  height: 100px;
+  height: 80px;
   margin: auto;
   max-width: 1140px;
 }
 .logo-img {
   background-color: #b28756;
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
 }
 .logo {
   width: 100px;
